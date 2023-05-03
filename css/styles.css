@@ -361,8 +361,10 @@
     width: 1200px;
     display:flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
     margin:auto;
+    margin-bottom: 150px;
+    position: relative;
 }
 .footer__title{
     font-family: 'Ubuntu';
@@ -412,4 +414,83 @@
     grid-template-rows:repeat(2,300px);
     grid-template-columns:repeat(2,300px);
     list-style-type:none;
+}
+.foooter__feature-item{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.footer__title-feature-item{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top:25px;
+}
+.question{
+    box-sizing:border-box;
+    background-color:#F83718;
+    width: 582px;
+    height: 233px;
+    margin-left:440px;
+}
+.question__title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top:47px;
+    padding-left:58px;
+    padding-bottom:30px;
+}
+.question__contact-us{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    padding-left:58px;
+    padding-bottom:30px;
+    display:inline-block;
+}
+.question__link{
+    padding-left:58px;
+    padding-bottom:30px;
+}
+.question__contact-us{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.question__link{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+    text-decoration: none;
+    display:block;
+}
+.contacts-info{
+    margin-top: 120px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #959595;
 }
